@@ -1,0 +1,12 @@
+prefix=c:/projects/Loan_Elgibility_Check/venv/Library
+exec_prefix=c:/projects/Loan_Elgibility_Check/venv/Library
+libdir=c:/projects/Loan_Elgibility_Check/venv/Library/lib
+includedir=c:/projects/Loan_Elgibility_Check/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
